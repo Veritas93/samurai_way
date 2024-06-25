@@ -1,10 +1,14 @@
-import React from 'react';
-import './App.css';
+import "./App.css";
+import { Header } from "./section/Header";
+import { Main } from "./section/Main";
+import { NavMenu } from "./section/NavMenu";
 
 function App() {
   return (
-    <div className="App">
-     Hello, samurai! Let's go!
+    <div className="app-wrapper">
+      <Header />
+      <NavMenu />
+      <Main />
     </div>
   );
 }
